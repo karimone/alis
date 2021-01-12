@@ -93,8 +93,7 @@ Internet connection is required, with wireless WIFI connection see <a href="http
 ```
 #                         # Start the system with latest Arch Linux installation media
 # loadkeys [keymap]       # Load keyboard keymap, eg. loadkeys es, loadkeys us, loadkeys de
-# curl -sL https://raw.githubusercontent.com/picodotdev/alis/master/download.sh | bash     # Download alis scripts
-# # curl -sL https://bit.ly/2F3CATp | bash                                                 # Alternative download URL with URL shortener
+# curl -sL http://develop.archlinux.link | bash     # Download alis scripts
 # ./alis-asciinema.sh     # (Optional) Start asciinema video recording
 # vim alis.conf           # Edit configuration and change variables values with your preferences (system configuration)
 # vim alis-packages.conf  # (Optional) Edit configuration and change variables values with your preferences (packages to install)
@@ -106,7 +105,7 @@ Internet connection is required, with wireless WIFI connection see <a href="http
 If you fork _alis_ repository you can host your own configuration and changes in your repository.
 
 ```
-# curl https://raw.githubusercontent.com/picodotdev/alis/master/download.sh | bash -s -- -u [github user]
+# curl http://develop.archlinux.link | bash -s -- -u [github user]
 ```
 
 ### Packages installation
